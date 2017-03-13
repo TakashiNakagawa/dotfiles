@@ -1,0 +1,46 @@
+ # like ide {{{
+ [[plugins]]
+ repository = 'Shougo/vimfiler'
+ explorer = 1
+ mappings = '<Plug>'
+
+[[plugins]]
+repository = 'thinca/vim-quickrun'
+mappings = '<Plug>'
+
+[[plugins]]
+repository = 'Shougo/neosnippet'
+insert = 1
+
+# search {{{
+[[plugins]]
+repository = 'rking/ag.vim'
+mappings = '<Plug>'
+
+# benrify {{{
+[[plugins]]
+repository = 'Shougo/vimshell.vim'
+mappings = '<Plug>'
+
+
+# html {{{
+[[plugins]]
+repository = 'hail2u/vim-css3-syntax'
+filetypes = 'html'
+
+[[plugins]]
+repository = 'gorodinskiy/vim-coloresque'
+filetypes = 'html'
+
+[[plugins]]
+repository = 'tpope/vim-haml'
+filetypes = 'html'
+
+[[plugins]]
+repository = 'mattn/emmet-vim'
+filetypes = 'html'
+
+# toml {{{
+[[plugins]]
+repository = 'cespare/vim-toml'
+filetypes = 'toml'

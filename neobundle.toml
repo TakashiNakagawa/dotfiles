@@ -1,0 +1,82 @@
+# unite {{{
+[[plugins]]
+repository = 'Shougo/unite.vim'
+
+[[plugins]]
+repository = 'Shougo/unite-outline'
+
+[[plugins]]
+repository = 'Shougo/neomru.vim'
+
+[[plugins]]
+repository = 'Shougo/vimproc.vim'
+
+  [plugins.build]
+    windows = 'tools\\update-dll-mingw'
+    cygwin = 'make -f make_cygwin.mak'
+    mac = 'make -f make_mac.mak'
+    unix = 'make -f make_unix.mak'
+
+[[plugins]]
+repository = 'Lokaltog/vim-easymotion'
+
+[[plugins]]
+repository = 'haya14busa/incsearch-fuzzy.vim'
+
+[[plugins]]
+repository = 'haya14busa/incsearch.vim'
+
+[[plugins]]
+repository = 'haya14busa/incsearch-migemo.vim'
+
+[[plugins]]
+repository = 'Shougo/neocomplete'
+
+[[plugins]]
+repository = 'Shougo/neosnippet-snippets'
+
+[[plugins]]
+repository = 'Yggdroot/indentLine'
+
+[[plugins]]
+repository = 'airblade/vim-gitgutter'
+
+[[plugins]]
+repository = 'fuenor/qfixgrep'
+
+[[plugins]]
+repository = 'fuenor/qfixhowm'
+
+[[plugins]]
+repository = 'chriskempson/vim-tomorrow-theme'
+
+[[plugins]]
+repository = 'ctrlp.vim'
+
+
+[[plugins]]
+repository = 'def-lkb/ocp-indent-vim'
+
+[[plugins]]
+repository = 'itchyny/lightline.vim'
+
+[[plugins]]
+repository = 'nathanaelkane/vim-indent-guides'
+
+[[plugins]]
+repository = 'rhysd/clever-f.vim'
+
+[[plugins]]
+repository = 'tomtom/tcomment_vim'
+
+[[plugins]]
+repository = 'tpope/vim-fugitive'
+
+[[plugins]]
+repository = 'tpope/vim-surround'
+
+[[plugins]]
+repository = 'vim-scripts/vim-auto-save'
+
+[[plugins]]
+repository = 'w0ng/vim-hybrid'
