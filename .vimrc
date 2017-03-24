@@ -390,7 +390,7 @@ nnoremap <Space>l  $
  noremap <silent><expr> z? incsearch#go(<SID>config_fuzzyall({'command': '?'}))
  noremap <silent><expr> zg? incsearch#go(<SID>config_fuzzyall({'is_stay': 1}))
 
- map /  <Plug>(incsearch-forward)
+ map /  <Plug>(incsearch-stay)
  map ?  <Plug>(incsearch-backward)
  map g/ <Plug>(incsearch-stay)
 
