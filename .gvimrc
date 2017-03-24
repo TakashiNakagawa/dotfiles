@@ -21,7 +21,7 @@
   " window size
   if has("win32")
       " au GUIEnter * simalt ~x
-      set guifont=Ricty_Diminished:h13
+      set guifont=Migu_1M:h11
       au GUIEnter * set lines=60
       au GUIEnter * set columns=190
   else
