@@ -37,6 +37,11 @@ set ambiwidth=double    " 全角記号を欠けないようにする
 set encoding=utf-8
 set fileencodings=utf-8,cp932
 " set rop=type:directx,renmode:5,taamode:2
+set pumheight=10 "補完メニューの高さ
+set display=lastline "一行が長くても全ての文字を描画する
+
+nnoremap + <C-a> "インクリメント
+nnoremap - <C-x> "デクリメント
 
 " カーソル後の文字削除
 inoremap <silent> <C-d> <Del>
