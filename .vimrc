@@ -29,7 +29,7 @@ set matchtime=3         " 対応括弧のハイライト表示を3秒にする
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-" set cursorline          "カーソル行をハイライト
+set cursorline          "カーソル行をハイライト
 " hi clear CursorLine
 set noundofile
 set display=lastline    "一行の文字数が多くてもきちんと描画する
