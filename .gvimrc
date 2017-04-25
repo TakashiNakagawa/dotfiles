@@ -12,6 +12,7 @@
 "  syntax on
 
 
+colorscheme koehler
 "  let g:hybrid_use_Xresources = 1
 
  " if g:colors_name ==? 'hybrid'
@@ -21,7 +22,8 @@
   " window size
   if has("win32")
       " au GUIEnter * simalt ~x
-      set guifont=Migu_1M:h11
+      " set guifont=Migu_1M:h11
+      set guifont=Myrica_M:h11
       au GUIEnter * set lines=60
       au GUIEnter * set columns=190
   else
