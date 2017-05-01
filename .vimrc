@@ -7,7 +7,6 @@
  "検索関係
  "------------------------
  set ignorecase          " 大文字小文字を区別しない
- set smartcase
  set smartcase           " 検索文字に大文字がある場合は大文字小文字を区別
  set incsearch           " インクリメンタルサーチ
  set hlsearch             " 検索マッチテキストをハイライト
@@ -21,7 +20,6 @@
 "------------------------
 set shiftround          " '<'や'>'でインデントする際に'shiftwidth'の倍数に丸める
 set infercase           " 補完時に大文字小文字を区別しない
-" set virtualedit=all     " カーソルを文字が存在しない部分でも動けるようにする
 set hidden              " バッファを閉じる代わりに隠す（Undo履歴を残すため）
 set switchbuf=useopen   " 新しく開く代わりにすでに開いてあるバッファを開く
 set showmatch           " 対応する括弧などをハイライト表示する
@@ -30,13 +28,11 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set cursorline          "カーソル行をハイライト
-" hi clear CursorLine
 set noundofile
 set display=lastline    "一行の文字数が多くてもきちんと描画する
 set ambiwidth=double    " 全角記号を欠けないようにする
 set encoding=utf-8
 set fileencodings=utf-8,cp932
-" set rop=type:directx,renmode:5,taamode:2
 set pumheight=10 "補完メニューの高さ
 set display=lastline "一行が長くても全ての文字を描画する
 
@@ -60,7 +56,6 @@ nnoremap <Space>l  $
 
 
  let mapleader = ","     "leaderを,に変更
-
 
 
  "インデントを連続して変更
